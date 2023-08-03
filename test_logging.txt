@@ -1,0 +1,210 @@
+Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employee/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 02 Aug 2023 09:23:29 GMT
+Server: nginx/1.21.6
+Content-Type: application/json
+Content-Length: 157
+Cache-Control: no-cache, private
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 58
+Cache-Control: max-age=21600
+Expires: Wed, 02 Aug 2023 15:23:31 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+X-Endurance-Cache-Level: 2
+X-nginx-cache: WordPress
+X-Server-Cache: true
+X-Proxy-Cache: MISS
+
+{
+    "status": "success",
+    "data": {
+        "id": 2,
+        "employee_name": "Garrett Winters",
+        "employee_salary": 170750,
+        "employee_age": 63,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+Request method:	GET
+Request URI:	https://dummy.restapiexample.com/api/v1/employee/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Date: Wed, 02 Aug 2023 09:23:33 GMT
+Server: nginx/1.21.6
+Content-Type: text/html; charset=UTF-8
+Content-Length: 595
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 57
+retry-after: 57
+x-ratelimit-reset: 1690968271
+Cache-Control: no-cache, private
+Vary: Accept-Encoding
+Content-Encoding: gzip
+host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+X-Endurance-Cache-Level: 2
+X-nginx-cache: WordPress
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
+Request method:	POST
+Request URI:	https://dummy.restapiexample.com/api/v1/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "apitest",
+    "salary": "5000",
+    "age": "30"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Wed, 02 Aug 2023 09:23:36 GMT
+Server: Apache
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 56
+retry-after: 55
+x-ratelimit-reset: 1690968271
+Cache-Control: no-cache, private
+Upgrade: h2,h2c
+Connection: Upgrade
+Vary: Accept-Encoding
+Content-Encoding: gzip
+host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+X-Endurance-Cache-Level: 2
+X-nginx-cache: WordPress
+Content-Length: 595
+Content-Type: text/html; charset=UTF-8
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Too Many Requests</title>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+    <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="flex-center position-ref full-height">
+      <div class="code">
+                429            </div>
+      <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+    </div>
+  </body>
+</html>
